@@ -5,9 +5,21 @@
 </head>
 <body>
     <h1>WELCOME TO STUDYFREE</h1>
-    <h4 style="font-style: italic;">this is a place where you can plan your study schedule wihtout a hassle!!!</h4>
-    <button style ="border: 10px;font-style: italic; color:purple; background-color: aquamarine;border-radius: 25px; ">
-MAKE YOUR PLANNER!!
-    </button>
-    </body>
+    <h4 style="font-style: italic;">your clarifier before coffee!!</h4>
+    <button style="font-style: bold; color: rgb(3, 39, 94);background-color: peachpuff;border-radius: 20px;">MAKE YOUR PLANNER!!</button>
+    <hr>
+
+    <form action="data.php" method="POST">
+        <label for="Subject name">Subject Name</label>
+        <input id="Subject name" placeholder="Subject"required>
+        <br><br>
+        <label for="no.ofdf">Number of days left </label>
+        <input  type="number" id="no.ofdf" placeholder="number of days left"required>
+        <br><br>
+        <label for="Exam Date">Exam Date</label>
+        <input type ="number" id="Exam Date" placeholder="Exam Date"required>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
 </html>
